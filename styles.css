@@ -124,10 +124,12 @@ button{
 .contact_information{
     display: flex;
     justify-content: center;
+    align-items: center;
     margin: 80px;
     padding: 40px;
     background-color: #3882f6;
     color: #E5E7EB;
+    gap: 15px;
 }
 
 .information-1{
@@ -137,6 +139,7 @@ button{
 .information-2{
     border-color: #E5E7EB;
     flex-shrink: 0;
+    align-items: center;
 }
 
 .information-2 button{ 
